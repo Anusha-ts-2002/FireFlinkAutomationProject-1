@@ -51,8 +51,10 @@ public class CampaignTest  extends BaseClass {
 //		ccp.CreateCampaignPage("jammu", "20");
 		
 		
-		
+		System.out.println("New Campaign is created");	
 	}
+	
+	
 	
 	@Test()
 	public void sample2()
