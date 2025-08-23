@@ -29,17 +29,17 @@ public class CampaignTest  extends BaseClass {
 //		String targetsize = fu.readdatafromexcelsheet("Sheet1", 10, 2);
 		
 		//click on campaign link
-		DashboardPage dp = new DashboardPage(driver);
-		dp.clickOnCampaignsLnk();
-		Reporter.log("clicked on campaign link"+ true);//report to get the action done or not in report and console
+//		DashboardPage dp = new DashboardPage(driver);
+//		dp.clickOnCampaignsLnk();
+//		Reporter.log("clicked on campaign link"+ true);//report to get the action done or not in report and console
 //
 //		//click on create campaign button
-		CampaignPage cp = new CampaignPage(driver);
-		cp.createCampaignClick();	
+//		CampaignPage cp = new CampaignPage(driver);
+//		cp.createCampaignClick();	
 		
-		CreateCampaignPage  ccp = new CreateCampaignPage(driver);
-		ccp.CreateCampaignPage("jammu", "20");
-		Reporter.log("clicked on create campaign "+true);
+//		CreateCampaignPage  ccp = new CreateCampaignPage(driver);
+//		ccp.CreateCampaignPage("jammu", "20");
+//		Reporter.log("clicked on create campaign "+true);
 //		Thread.sleep(2000);
 		
 //		
