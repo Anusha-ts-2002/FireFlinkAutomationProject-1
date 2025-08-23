@@ -72,7 +72,7 @@
  
  <profiles>
  <profile>
- <id>Regression</id>
+ <id>smoke</id>
  <build>
   <plugins>
       <plugin>
@@ -81,7 +81,7 @@
         <version>3.5.3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>Regressionsuite.xml</suiteXmlFile>
+            <suiteXmlFile>Smokesuite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
